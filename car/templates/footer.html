@@ -1,0 +1,149 @@
+<style>
+    
+    h3 {
+        color: #fff;
+        width: 50%;
+        border-bottom: 5px solid orange;
+        margin-bottom: 7%;
+    }
+    
+    .footer {
+        background-color: black;
+        color: #eee;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-transform: capitalize;
+        border-top: .5px solid grey;
+    }
+    
+    .footer .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(2%, .5fr));
+        gap: .2%;
+    }
+    
+    .footer .box-container .box h3 {
+        font-size: xx-large;
+        color: #fff;
+        /* padding: 2%; */
+        font-size: 26px;
+    }
+    
+    .footer .box-container .box .links {
+        display: block;
+        font-size: large;
+        color: #fff;
+    }
+    
+    /* .footer .box-container .box .links i {
+        padding-right: 0.5%;
+    } */
+    
+    .footer .box-container .box .links:hover i {
+        padding-right: 5%;
+    }
+    
+    .footer .box-container .box p {
+        line-height: 1.8;
+        font-size: x-large;
+        color: #fff;
+        /* padding: 2%; */
+    }
+    
+    .footer .box-container .box .share a {
+        height: 15%;
+        width: 15%;
+        line-height: 15%;
+        font-size: x-large;
+        color: #fff;
+        margin-right: 0.2%;
+        background: none;
+        text-align: center;
+        margin-top: 7%;
+    }
+    
+    .footer .box-container .box .share a:hover {
+        background: inherit;
+        color: #fff;
+    }
+    
+    .footer .box-container .box .email {
+        width: 100%;
+        margin-bottom: 2%;
+        padding: 2%;
+        background: #eee;
+        font-size: larger;
+        color: #fff;
+        text-transform: none;
+    }
+    .box{
+        margin-right: 10%;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+    
+    @media (max-width: 450px) {
+        .footer {
+            text-align: center;
+        }
+    }
+</style>
+
+<section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>About Us</h3>
+            <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quos illum labore perferendis doloremque magni, sed eos amet non ipsa voluptate nihil velit ducimus voluptas veritatis accusantium repudiandae similique beatae?</p>
+            <a href="#" class="links"> <i style="color: orange;" class="fas fa-map-marker-alt"></i> juja, kenya. </a>
+            <a href="#" class="links"> <i style="color: orange;" class="fas fa-phone"></i> +254798336626 </a>
+            <a href="#" class="links"> <i style="color: orange;" class="fas fa-envelope"></i>autogarage@gmail.com </a>
+            <div class="share">
+                <a href="https://www.instagram.com/code_.monkey/" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://www.youtube.com/channel/UCg1H4ynX55XErp-3Z-bDcFA" target="_blank" class="fab fa-youtube"></a>
+                <a href="https://twitter.com/TheeSophia?t=p2XK65vNaf4i0eTPqjIwdA&s=08" target="_blank" class="fab fa-twitter"></a>
+            </div>
+        </div>
+
+        <div class="box flex">
+            <h3>quick links</h3>
+            <div class="all">
+            <div class="left">
+                <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#features" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#products" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            </div>
+            <div class="right">
+                <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+            </div>
+            <div class="news">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="Your Email" class="email">
+                <button class="btn btn-outline-success" type="submit">Subscribe</button>
+            </div>
+        </div>
+
+        
+
+        <div class="box">
+            <h3>In patnership with</h3>
+            <a href="https://portal.ntsa.go.ke/" class="links"> <i style="color: orange;  font-size:x-large;"  class="uil uil-angle-double-right"></i> NTSA ke </a>
+            <a href="https://olaenergy.com/" class="links"> <i style="color: orange;  font-size:x-large;"  class="uil uil-angle-double-right"></i> Olaenergy ke </a>
+            <a href="https://www.stanbicbank.co.ke/" class="links"> <i style="color: orange;  font-size:x-large;"  class="uil uil-angle-double-right"></i> Stanbic Bank</a>
+            <a href="https://www.subarukenya.com/" class="links"> <i style="color: orange; font-size:x-large;"  class="uil uil-angle-double-right"></i> Subaru ke </a>
+            
+            
+        </div>
+
+        
+
+    </div>
+</section>
